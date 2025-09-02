@@ -5,11 +5,7 @@
 
 批量改为预测后直接在文件夹生成.txt文件，主要用于打标
 
-增加了标签开关
-
-app.py应该没问题，其他的ds写的，有问题我也不会解决
-
-（不会在WD标签器增加模型，被逼急了自己瞎搞的）
+此外增加了标签类别的开关
 
 运行run.bat出现
 
@@ -25,3 +21,7 @@ app.py应该没问题，其他的ds写的，有问题我也不会解决
 你需要在虚拟环境中安装onnxruntime-gpu，并保证其与你的CUDA和cudnn版本相匹配
 
 可以参考https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html
+
+app.py应该没问题，其他的ds写的，有问题我也不会解决
+
+（不会在WD标签器增加模型，被逼急了自己瞎搞的）
