@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.env
+.env.local
+.env.production
+
+# Model cache
+model_cache/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Batch output (temporary)
+batch_output/
